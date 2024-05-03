@@ -51,6 +51,13 @@ Plan the first prototype assembly, considering the physical layout and the integ
 ### Objective of the Week:
 The primary objective this week was to engage in a design review with our professors and teaching assistants, discussing and defining the theoretical logic behind our sensor for the occupancy counter project.
 
+#### Theoretical Design
+<img width="349" alt="image" src="https://github.com/Tanmay-Kant/OccupancyCounter/assets/70791179/d7ba0979-f45a-4f51-a0ad-c5deda922172">
+
+#### Logical Design
+<img width="353" alt="image" src="https://github.com/Tanmay-Kant/OccupancyCounter/assets/70791179/656b7f40-5574-4952-bcce-2dd1ed6cf407">
+
+
 ### Tasks Accomplished:
 
 #### TANMAY
@@ -93,6 +100,8 @@ Prepare for the installation of electronic components in a real-world environmen
 
 ### Objective of the Week:
 This week, the objective was to securely attach all electronic components to the doorways and to manage wiring effectively within our project setup.
+#### Encasing
+<img width="282" alt="image" src="https://github.com/Tanmay-Kant/OccupancyCounter/assets/70791179/2a4c5501-e73c-4479-a49e-a67c7baa435b">
 
 #### Tasks Accomplished:
 
@@ -140,7 +149,14 @@ The goal for this week was to finalize the hardware setup and begin developing t
 #### TANMAY
 Completed the final touches on our hardware setup, ensuring all components were securely installed and operational.
 Began software development, writing initial codes for sensor data ingestion and processing.
+Conducted valuation of noise from a full field of view versus two zones, and found that using thresholds, noise could be eliminated.
 Collaborated with Ashwin on planning the digital display integration.
+
+#### Two modules on either side of door providing full FOV
+<img width="623" alt="image" src="https://github.com/Tanmay-Kant/OccupancyCounter/assets/70791179/16bacc0a-e3f6-4910-830e-f5435622dacf">
+
+#### Single module on one side of door
+<img width="623" alt="image" src="https://github.com/Tanmay-Kant/OccupancyCounter/assets/70791179/21669979-7ace-4efb-8eeb-4b9dd923643d">
 
 #### ASHWIN
 The room count has properly been set up in order to account for people entering and exiting a zone. We started working on edge cases in order to determine if they should count as a person who entered or exited a room. The main edge case we worked on was when. Person would enter the first 2 zones, and then decide to turn around and not fully enter/exit the room. We broke the code down into 4 zones in order to account for this situation. In addition, I also was able to successfully transfer the room count to a digital display using WiFi setup. Setting a personal hotspot worked as well, satisfying our universal compatibility requirement.
@@ -162,6 +178,10 @@ The primary goal this week was to develop and refine the software logic that man
 Developed the core logic for processing sensor data, ensuring the system accurately interprets signals from the Time-of-Flight sensors to determine room occupancy.
 Integrated the processed data with our digital display system, allowing for real-time updates of the occupancy count visible on the user interface.
 Conducted initial tests to validate the accuracy of the data flow from sensors to display.
+
+#### Raw Sensor Data Plot
+<img width="622" alt="image" src="https://github.com/Tanmay-Kant/OccupancyCounter/assets/70791179/75f807ed-7e14-47ac-b7d9-bc50ac5b4498">
+
 
 #### ASHWIN
 I helped conduct tests to see if the data flowing from the sensors was accurate, particularly on the digital display. Mostly spent debugging in order to have a proper update frequency to satisfy our 2nd high-level requirement.
